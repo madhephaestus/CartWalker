@@ -19,8 +19,8 @@ import com.neuronrobotics.sdk.addons.kinematics.imu.*
 
 
 if(args==null){
-	double stepOverHeight=10;
-	long stepOverTime=300;// Servo loop times number of points times Nyquest doubeling
+	double stepOverHeight=20;
+	long stepOverTime=400;// Servo loop times number of points times Nyquest doubeling
 	Double zLock=5;
 	Closure calcHome = { DHParameterKinematics leg -> 
 			TransformNR h=leg.calcHome() 
@@ -30,9 +30,9 @@ if(args==null){
 			//Bambi-on-ice the legs a bit
 
 			if(legRoot.getY()>0){
-				tr.translateY(10)
+				//tr.translateY(10)
 			}else{
-				tr.translateY(-10)
+				//tr.translateY(-10)
 			}
 
 			if(legRoot.getX()>0){
@@ -51,8 +51,8 @@ if(args==null){
 	double staticPanOffset = 20
 	double coriolisGain = 1
 	boolean headStable = false
-	double maxBodyDisplacementPerStep = 50
-	double minBodyDisplacementPerStep = 7.5
+	double maxBodyDisplacementPerStep = 20
+	double minBodyDisplacementPerStep = 10
 	args =  [stepOverHeight,
 	stepOverTime,
 	zLock,

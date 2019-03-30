@@ -13,8 +13,8 @@ import edu.wpi.SimplePacketComs.phy.UDPSimplePacketComs;
 import edu.wpi.SimplePacketComs.device.gameController.*;
 import edu.wpi.SimplePacketComs.device.*
 if(args == null)
-	args = ["https://github.com/OperationSmallKat/SmallKat_V2.git",
-		"Bowler/MediumKat.xml","GameController_22"]
+	args = ["https://github.com/madhephaestus/CartWalker.git",
+		"cart.xml","GameController_22"]
 
 public class SimpleServoHID extends HIDSimplePacketComs {
 	private PacketType servos = new edu.wpi.SimplePacketComs.BytePacketType(1962, 64);
@@ -222,7 +222,7 @@ def dev = DeviceManager.getSpecificDevice( "hidDevice",{
 	return d
 })
 
-def cat =DeviceManager.getSpecificDevice( "MediumKat",{
+def cat =DeviceManager.getSpecificDevice( "cartWalker",{
 	//If the device does not exist, prompt for the connection
 	
 	MobileBase m = MobileBaseLoader.fromGit(

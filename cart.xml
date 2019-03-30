@@ -25,13 +25,13 @@
 	<name>basePan</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
-	<index>8</index>
-	<scale>0.33</scale>
-	<upperLimit>255.0</upperLimit>
-	<lowerLimit>0.0</lowerLimit>
+	<index>10</index>
+	<scale>-0.33</scale>
+	<upperLimit>127.5</upperLimit>
+	<lowerLimit>3.8059701492537314</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>216.80037313432837</staticOffset>
+	<staticOffset>28.40485074626865</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>171</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -81,11 +81,11 @@
 	<type>hidfast</type>
 	<index>9</index>
 	<scale>0.33</scale>
-	<upperLimit>255.0</upperLimit>
-	<lowerLimit>0.0</lowerLimit>
+	<upperLimit>167.46268656716418</upperLimit>
+	<lowerLimit>5.708955223880596</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>255.0</staticOffset>
+	<staticOffset>144.6268656716418</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>148</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -133,13 +133,13 @@
 	<name>elbow</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
-	<index>10</index>
+	<index>8</index>
 	<scale>0.33</scale>
-	<upperLimit>255.0</upperLimit>
-	<lowerLimit>0.0</lowerLimit>
+	<upperLimit>154.14179104477614</upperLimit>
+	<lowerLimit>9.514925373134327</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
-	<staticOffset>133.536840053464</staticOffset>
+	<staticOffset>135.43982512809086</staticOffset>
 	<isLatch>true</isLatch>
 	<indexLatch>128</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>

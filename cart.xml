@@ -26,7 +26,7 @@
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>10</index>
-	<scale>-0.33</scale>
+	<scale>-0.514285</scale>
 	<upperLimit>127.5</upperLimit>
 	<lowerLimit>3.8059701492537314</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -80,7 +80,7 @@
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>9</index>
-	<scale>0.33</scale>
+	<scale>0.514285</scale>
 	<upperLimit>167.46268656716418</upperLimit>
 	<lowerLimit>5.708955223880596</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -134,7 +134,7 @@
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>8</index>
-	<scale>0.33</scale>
+	<scale>0.514285</scale>
 	<upperLimit>154.14179104477614</upperLimit>
 	<lowerLimit>9.514925373134327</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -221,7 +221,7 @@
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>12</index>
-	<scale>0.33</scale>
+	<scale>0.514285</scale>
 	<upperLimit>152.23880597014923</upperLimit>
 	<lowerLimit>60.8955223880597</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -275,7 +275,7 @@
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>13</index>
-	<scale>0.33</scale>
+	<scale>0.514285</scale>
 	<upperLimit>180.78358208955223</upperLimit>
 	<lowerLimit>19.029850746268654</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -329,7 +329,7 @@
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>14</index>
-	<scale>0.33</scale>
+	<scale>0.514285</scale>
 	<upperLimit>142.72388059701493</upperLimit>
 	<lowerLimit>5.708955223880596</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -416,7 +416,7 @@
 	<deviceName>dyio</deviceName>
 	<type>pid-tool</type>
 	<index>1</index>
-	<scale>0.33</scale>
+	<scale>0.514285</scale>
 	<upperLimit>1.0E8</upperLimit>
 	<lowerLimit>-1.0E8</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -503,7 +503,7 @@
 	<deviceName>dyio</deviceName>
 	<type>pid-tool</type>
 	<index>0</index>
-	<scale>0.33</scale>
+	<scale>0.514285</scale>
 	<upperLimit>1.0E8</upperLimit>
 	<lowerLimit>-1.0E8</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>

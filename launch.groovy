@@ -15,7 +15,6 @@ if(gameController==null){
 
 	return 
 }
-
 int [] data = gameController.getData() 
 double toSeconds=0.06//100 ms for each increment
 
